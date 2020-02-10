@@ -1,0 +1,18 @@
+﻿{
+  "routes": [
+    {
+      "endpoint": "/TodoItems",
+      "destination": {
+        "path": "http://localhost:50221/api/TodoItems",
+        "requiresAuthentication": "false"
+      }
+    },
+    {
+      "endpoint": "/Employees",
+      "destination": {
+        "path": "http://dummy.restapiexample.com/api/v1/employees",
+        "requiresAuthentication": "false"
+      }
+    }
+  ]
+}
